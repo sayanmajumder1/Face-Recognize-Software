@@ -4,8 +4,6 @@ Welcome to the Face Recognition System! This application allows you to capture i
 
 ## Table of Contents
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Developer Information](#developer-information)
 
@@ -16,6 +14,41 @@ Welcome to the Face Recognition System! This application allows you to capture i
 - **Recognize Face**: Run face recognition in real-time.
 - **Search Documents**: Search and open attendance records based on the specified date and file name.
 
+##Project Structure 
+Structure is face_recognition_software/
+│
+├── dataset/
+│   ├── person1/
+│   │   ├── 0.jpg
+│   │   ├── 1.jpg
+│   │   ├── ...
+│   ├── person2/
+│   │   ├── 0.jpg
+│   │   ├── 1.jpg
+│   │   ├── ...
+│   ├── ...
+│
+├── models/
+│   ├── face_recognition_model.pkl
+│
+├
+│   
+│
+├── scripts/
+│   ├── capture_images.py
+│   ├── train_model.py
+│   ├── recognize_face.py
+│
+├── ui/
+│   ├── desktop/
+│   │   ├── main.py
+│
+├
+│   
+│
+├
+│
+└── README.md 
 
 
 
