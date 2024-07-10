@@ -14,8 +14,19 @@ Welcome to the Face Recognition System! This application allows you to capture i
 - **Recognize Face**: Run face recognition in real-time.
 - **Search Documents**: Search and open attendance records based on the specified date and file name.
 
-##Project Structure 
-Structure is face_recognition_software/
+##Project Structure
+
+
+
+
+
+
+
+
+
+
+
+face_recognition_software/
 │
 ├── dataset/
 │   ├── person1/
